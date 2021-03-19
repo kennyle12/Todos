@@ -1,0 +1,74 @@
+{
+  "name": "bs-todo",
+  "description": "A decentralized Todo app built on Blockstack",
+  "author": "Michael Stivala <michaelstivala@me.com> (https://michaelstivala.com/)",
+  "contributors": [
+    "Aaron Blankstein <aaron@blockstack.com> (https://github.com/kantai)",
+    "Larry Salibra <hello@larrysalibra.com> (https://larrysalibra.com/)",
+    "Arjun Balaji <arjunblj@gmail.com> (https://github.com/arjunblj)",
+    "Kim Hallberg <work@hallberg.kim> (https://hallberg.kim/)",
+    "Guy Lepage <guylepage3@gmail.com> (https://lepage.cc/)",
+    "Jack Zampolin (https://github.com/jackzampolin)",
+    "Moxiegirl (https://github.com/moxiegirl)",
+    "Sahana Srinivasan (https://github.com/Sahana-Srinivasan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blockstack/blockstack-todos"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blockstack/connect": "^2.12.4",
+    "@blockstack/stacks-transactions": "0.7.0",
+    "@blockstack/ui": "^2.12.9",
+    "@stacks/blockchain-api-client": "^0.22.0",
+    "blockstack": "^21.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "uuid": "^8.3.0"
+  },
+  "prettier": "@blockstack/prettier-config",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:app": "react-scripts test",
+    "test:contracts": "mocha",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint src/**/*.{jsx,js} --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@blockstack/clarity": "^0.2.0",
+    "@blockstack/eslint-config": "^1.0.5",
+    "@blockstack/prettier-config": "0.0.6",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10",
+    "chai": "^4.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint-config-react-app": "^5.2.1",
+    "mocha": "^6.1.4",
+    "react-addons-test-utils": "^15.6.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.2"
+  }
+}
